@@ -121,3 +121,6 @@ USE_TZ = True
 
 STATIC_ROOT = "app-root/repo/wsgi/static"
 STATIC_URL = '/static/'
+
+MEDIA_URL = '/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static_files')
